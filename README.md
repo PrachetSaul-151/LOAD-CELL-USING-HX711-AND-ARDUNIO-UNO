@@ -15,12 +15,14 @@ Connect the HX711 module's VCC pin to the 5V pin on the Arduino Uno.
 Connect the HX711 module's GND pin to the GND pin on the Arduino Uno.
 Connect the HX711 module's DT pin to digital pin 2 on the Arduino Uno.
 Connect the HX711 module's SCK pin to digital pin 3 on the Arduino Uno.
+
 Step 2: Install the HX711 Library
 
 Open the Arduino IDE.
 Go to "Sketch" -> "Include Library" -> "Manage Libraries".
 Search for "HX711" and select the "HX711" library developed by bogde.
 Click on the "Install" button to install the library.
+
 Step 3: Upload the Code
 
 Copy and paste the following code into your Arduino IDE:
