@@ -8,7 +8,7 @@ To use a load cell with an Arduino, you will need additional components such as 
 
 To interface a load cell with an Arduino Uno using the HX711 amplifier, you can follow these steps:
 
-Step 1: Wiring the Components
+#Step 1: Wiring the Components
 
 Connect the load cell's output to the HX711 module's input pins: E+ to E+, E- to E-, A+ to A+, and A- to A-.
 Connect the HX711 module's VCC pin to the 5V pin on the Arduino Uno.
@@ -16,13 +16,13 @@ Connect the HX711 module's GND pin to the GND pin on the Arduino Uno.
 Connect the HX711 module's DT pin to digital pin 2 on the Arduino Uno.
 Connect the HX711 module's SCK pin to digital pin 3 on the Arduino Uno.
 
-Step 2: Install the HX711 Library
+#Step 2: Install the HX711 Library
 
 Open the Arduino IDE.
 Go to "Sketch" -> "Include Library" -> "Manage Libraries".
 Search for "HX711" and select the "HX711" library developed by bogde.
 Click on the "Install" button to install the library.
 
-Step 3: Upload the Code
+#Step 3: Upload the Code
 
 Copy and paste the following code into your Arduino IDE:
